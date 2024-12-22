@@ -62,7 +62,7 @@ void computeGrade(studentRecords& student)
     }
 }
 
-// Write to Results.txt
+// Write to Results File
 void studentResults(const studentRecords& student)
 {
     static bool header = false;
