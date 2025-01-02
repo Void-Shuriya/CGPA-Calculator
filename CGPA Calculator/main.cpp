@@ -161,7 +161,7 @@ void readStudentData()
             iss >> student.asg1 >> student.asg2 >> student.test
                 >> student.quiz >> student.exam;
 
-            // Write all to Results.txt File
+            // Write scores to Results.txt File
             computeMarks(student);
             computeGrade(student);
             studentResults(student);
